@@ -2,7 +2,27 @@
    AI College Assistant
    Modern UI
 ========================================== */
+/* ==========================================
+   Mobile Menu Button
+========================================== */
 
+#menu-btn{
+
+    display:none;
+
+    background:none;
+
+    border:none;
+
+    color:white;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+    margin-right:15px;
+
+}
 /* Reset Browser Styles */
 *{
     margin:0;
@@ -147,9 +167,19 @@ body{
 
     color:white;
 
-    text-align:center;
+    display:flex;
+
+    align-items:center;
 
     padding:20px;
+
+}
+
+.chat-header div{
+
+    flex:1;
+
+    text-align:center;
 
 }
 
