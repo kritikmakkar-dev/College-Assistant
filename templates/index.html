@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI College Assistant</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+    <!-- ==========================================
+     Loading Overlay
+========================================== -->
+
+    <div id="loading-overlay">
+
+        <div class="loader"></div>
+
+            <p>Thinking...</p>
+
+    </div>
+
+    <!-- ===========================
+         Main Application
+    ============================ -->
+
+    <div class="app-container">
+
+        <!-- ===========================
+             Sidebar
+        ============================ -->
+
+        <aside class="sidebar">
+
+            <h2>🎓 College AI</h2>
+
+            <button id="new-chat-btn">
+
+                + New Chat
+
+            </button>
+
+            <div class="chat-history">
+
+                <h3>About</h3>
+
+                <p>
+                    🎓 AI College Assistant
+                </p>
+
+                <p>
+                    🤖 Powered by Google Gemini
+                </p>
+                <p>
+                    📚 Answers college and general questions
+                </p>
+            </div>
+
+        </aside>
+
+
+
+        <!-- ===========================
+             Chat Section
+        ============================ -->
+
+        <main class="chat-section">
+
+            <!-- Header -->
+
+            <header class="chat-header">
+
+                <h2>🎓 AI College Assistant</h2>
+
+                <p>Your Smart Campus Assistant</p>
+
+            </header>
+
+
+
+            <!-- Chat Area -->
+
+            <div id="chat-box">
+
+                <div id="welcome-message" class="bot-message">
+
+                    👋 Hello!
+
+                    <br><br>
+
+                    I'm your AI College Assistant.
+
+                    <br><br>
+
+                    Ask me anything related to your college.
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Bottom Input -->
+
+            <div class="input-area">
+
+                <input
+                    type="text"
+                    id="user-input"
+                    placeholder="Type your question..."
+                >
+
+                <button>
+
+                    Send
+
+                </button>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <!-- Markdown Library -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Your JavaScript -->    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
