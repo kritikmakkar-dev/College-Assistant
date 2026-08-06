@@ -408,7 +408,7 @@
   "what can you do": "I can answer questions about admissions, courses, placements, hostels, facilities, academics, student life, campus events, and many other topics related to PIET.",
   "version": "PIET AI Assistant Version 1.0",
   "help": "You can ask me about admissions, eligibility, placements, hostels, transportation, courses, departments, faculty, examinations, scholarships, campus facilities, and more.",
-  "who developed this chatbot": "The PIET AI Assistant was developed by a team consisting of Kritik Makkar, Keshav, Nitin, and Saksham. It was built using Python, Flask, HTML, CSS, JavaScript, Google Gemini AI, and Natural Language Processing to provide students with instant access to PIET-related information."
-  "who created this chatbot": "This chatbot was created by Kritik Makkar as an PIET AI Assistant.",
+  "who developed this chatbot": "The PIET AI Assistant was developed by a team consisting of Kritik Makkar, Keshav, Nitin, and Saksham. It was built using Python, Flask, HTML, CSS, JavaScript, Google Gemini AI, and Natural Language Processing to provide students with instant access to PIET-related information.",
+  "who created this chatbot": "This chatbot was created by Kritik Makkar as an PIET AI Assistant."
 
 }
